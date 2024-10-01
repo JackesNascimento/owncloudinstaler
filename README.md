@@ -6,6 +6,7 @@ Download the script:
 
 Edit your data DB and Password:
 ``nano owncloud.bash``
+
 ``mysql --password=YOUPASS --user=root --host=localhost << eof
 create database YOUDBNAME;
 grant all privileges on YOUDBNAME.* to root@localhost identified by "YOUPASS";``
